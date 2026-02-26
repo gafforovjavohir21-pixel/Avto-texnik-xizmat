@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block body %}
+<section class="bg-blue-600 py-16 text-center text-white">
+    <h1 class="text-5xl font-extrabold mb-4 italic">Auto24 Avtosalon</h1>
+    <p class="text-xl opacity-90">Sifatli va tekshirilgan avtomobillar galereyasi</p>
+</section>
+
+<section class="max-w-7xl mx-auto px-6 py-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        
+        <div class="bg-white rounded-[32px] overflow-hidden shadow-xl border border-slate-100 hover:-translate-y-2 transition duration-300">
+            <img src="http://googleusercontent.com/image_collection/image_retrieval/12955782571993497434_1" class="w-full h-64 object-cover">
+            <div class="p-8">
+                <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-bold">Yangi</span>
+                <h3 class="text-2xl font-bold mt-3">BYD Song Plus</h3>
+                <p class="text-slate-500 mt-2">Full komplektatsiya, 605 km masofa (CLTC).</p>
+                <div class="flex justify-between items-center mt-6">
+                    <span class="text-3xl font-extrabold text-blue-600 font-mono">$32,500</span>
+                    <button class="bg-slate-900 text-white px-6 py-2 rounded-xl font-bold">Sotib olish</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-[32px] overflow-hidden shadow-xl border border-slate-100 hover:-translate-y-2 transition duration-300">
+            <img src="http://googleusercontent.com/image_collection/image_retrieval/5941612270833371941_0" class="w-full h-64 object-cover">
+            <div class="p-8">
+                <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-bold">SUV</span>
+                <h3 class="text-2xl font-bold mt-3">Chevrolet Tahoe</h3>
+                <p class="text-slate-500 mt-2">6.2L V8 Dvigatel, Premium qulaylik va xavfsizlik.</p>
+                <div class="flex justify-between items-center mt-6">
+                    <span class="text-3xl font-extrabold text-blue-600 font-mono">$88,000</span>
+                    <button class="bg-slate-900 text-white px-6 py-2 rounded-xl font-bold">Sotib olish</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-[32px] overflow-hidden shadow-xl border border-slate-100 hover:-translate-y-2 transition duration-300">
+            <img src="http://googleusercontent.com/image_collection/image_retrieval/16523352154116725219_3" class="w-full h-64 object-cover">
+            <div class="p-8">
+                <span class="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-bold">Hozir keldi</span>
+                <h3 class="text-2xl font-bold mt-3">Mercedes-Benz S-Class</h3>
+                <p class="text-slate-500 mt-2">Lyuqs toifadagi haydash tajribasi va texnologiya.</p>
+                <div class="flex justify-between items-center mt-6">
+                    <span class="text-3xl font-extrabold text-blue-600 font-mono">$125,000</span>
+                    <button class="bg-slate-900 text-white px-6 py-2 rounded-xl font-bold">Sotib olish</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
